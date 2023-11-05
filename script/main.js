@@ -15,8 +15,8 @@ let brickColumnCount = 5;
 let brickWidth = 100;
 let brickHeight = 40;
 let brickPadding = 10;
-let brickOffsetTop = 30;
-let brickOffsetLeft = 30;
+let brickOffsetTop = 10;
+let brickOffsetLeft = 10;
 let score = 0;
 let lives = 3;
 let bricks = [];
@@ -75,7 +75,7 @@ function collisionDetection() {
 function drawBall() {
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "black";
     ctx.fill();
     ctx.closePath();
 }
