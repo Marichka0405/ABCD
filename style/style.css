@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: red;
+}
+
+canvas{
+    background: #00ff00;
+    background: linear-gradient(#fdc830, #f37335);
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    color: #f37335;
+    text-align: center;
+    font-family: monospace;
+    margin: 50px;
+}
+
